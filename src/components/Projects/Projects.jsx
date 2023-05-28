@@ -1,7 +1,58 @@
 import React from "react";
 import styled from "styled-components";
+import Card from "./Card";
 import { Zoom } from "react-awesome-reveal";
 
+let projects = [
+    {
+        name: "Trendr - News Summarization Application",
+        img: "images/trendr.png",
+        desc: [
+            "Utilized Stripe webhooks to automate subscription management and monitor payment status, and developed a dashboard to provide insights into key metrics such as revenue and user engagement",
+            "Integrated GPT-4 APIs to summarize news articles and provide a concise and relevant overview of the content",
+        ],
+        link: "https://github.com/anshulsharma1610/Trendr-News_Summarization",
+        from: "March 2023",
+        to: "April 2023",
+        technologies: ["Next.js", "React", "Redux", "Node.js", "Mongoose"],
+    },
+    {
+        name: "Movie Ticket Reservation & Recommendation System",
+        img: "",
+        desc: [
+            "Designed a database schema, an Entity-Relationship Model, and System Architecture to create a Twitter bot for extracting and processing live tweets to populate relevant databases",
+            "Deployed data pipeline to preprocess data using data preparation techniques such as data scraping, normalization, standardization, stored procedures, and data engineering with data audits and visualizations",
+        ],
+        link: "https://github.com/anshulsharma1610/Movie-Reservation-and-Recommendation-System",
+        from: "September 2022",
+        to: "December 2022",
+        technologies: ["Python", "SQL", "Tableau"],
+    },
+    {
+        name: "Travel Management System",
+        img: "",
+        desc: [
+            "Architected an application on Java swing to plan and book travel itineraries, food ordering, and table bookings",
+            "Enhanced application security by implementing 10 different role-based access control to protect sensitive information within the system",
+        ],
+        link: "https://github.com/anshulsharma1610/Travel_Management_System",
+        from: "November 2022",
+        to: "December 2022",
+        technologies: ["Java", "Java Swing", "SQL", "HTML", "CSS"],
+    },
+    {
+        name: "Soldier Health & Position Tracking System (IoT)",
+        img: "",
+        desc: [
+            "Utilized Stripe webhooks to automate subscription management and monitor payment status, and developed a dashboard to provide insights into key metrics such as revenue and user engagement",
+            "Integrated GPT-4 APIs to summarize news articles and provide a concise and relevant overview of the content",
+        ],
+        link: "/",
+        from: "July 2019",
+        to: "March 2020",
+        technologies: ["C", "Arduino", "PostgreSQL", "Blynk Cloud"],
+    },
+];
 const Projects = () => {
     return (
         <Container id="projects">
@@ -9,6 +60,11 @@ const Projects = () => {
                 <h1>
                     Recent <span className="green">Projects</span>
                 </h1>
+            </Zoom>
+            <Zoom>
+                {projects.map((project, index) => (
+                    <Card key={index} {...project} />
+                ))}
             </Zoom>
         </Container>
     );

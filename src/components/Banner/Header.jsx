@@ -4,6 +4,11 @@ import { GiCandleFlame } from "react-icons/gi";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
+
+    const handleNavItemClick = () => {
+        setBar(false);
+    };
+
     return (
         <Container bar={bar}>
             <Logo>
@@ -12,22 +17,34 @@ const Header = () => {
             </Logo>
             <Nav bar={bar}>
                 <span>
-                    <a href="#about">ABOUT</a>
+                    <a href="#about" onClick={handleNavItemClick}>
+                        ABOUT
+                    </a>
                 </span>
                 <span>
-                    <a href="#skills">SKILLS</a>
+                    <a href="#skills" onClick={handleNavItemClick}>
+                        SKILLS
+                    </a>
                 </span>
                 <span>
-                    <a href="#education">EDUCATION</a>
+                    <a href="#education" onClick={handleNavItemClick}>
+                        EDUCATION
+                    </a>
                 </span>
                 <span>
-                    <a href="#experience">EXPERIENCE</a>
+                    <a href="#experience" onClick={handleNavItemClick}>
+                        EXPERIENCE
+                    </a>
                 </span>
                 <span>
-                    <a href="#projects">PROJECTS</a>
+                    <a href="#projects" onClick={handleNavItemClick}>
+                        PROJECTS
+                    </a>
                 </span>
                 <span>
-                    <a href="#contact">CONTACT</a>
+                    <a href="#contact" onClick={handleNavItemClick}>
+                        CONTACT
+                    </a>
                 </span>
             </Nav>
             <div onClick={() => setBar(!bar)} className="bars">
