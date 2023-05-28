@@ -93,7 +93,7 @@ const Footer = () => {
                         <p>
                             Built with <span className="green">React</span>,
                             Styled Components, & React Icons, deployed with
-                            <span className="green">Vercel</span>.
+                            <span className="green"> Vercel</span>.
                         </p>
                     </Technologies>
                 </Slide>
