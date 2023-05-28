@@ -16,6 +16,7 @@ const Footer = () => {
             behavior: "smooth",
         });
     };
+
     return (
         <Container id="contact">
             <Profile>
@@ -43,30 +44,60 @@ const Footer = () => {
                     </Slide>
                     <div className="icons">
                         <Zoom>
-                            <span>
-                                <a href="/">
+                            <span
+                                onClick={() =>
+                                    window.open(
+                                        "https://www.linkedin.com/in/anshul1610",
+                                        "_blank"
+                                    )
+                                }
+                            >
+                                <a>
                                     <AiFillLinkedin />
                                 </a>
                             </span>
                         </Zoom>
                         <Zoom>
-                            <span>
-                                <a href="/">
+                            <span
+                                onClick={() =>
+                                    window.open(
+                                        "https://www.github.com/anshulsharma1610",
+                                        "_blank"
+                                    )
+                                }
+                            >
+                                <a>
                                     <AiFillGithub />
                                 </a>
                             </span>
                         </Zoom>
                         <Zoom>
-                            <span>
-                                <a href="/">
+                            <span
+                                onClick={() =>
+                                    window.open(
+                                        "https://www.instagram.com/anshul1610",
+                                        "_blank"
+                                    )
+                                }
+                            >
+                                <a>
                                     <AiOutlineInstagram />
                                 </a>
                             </span>
                         </Zoom>
                     </div>
                 </div>
-            </Profile>
 
+                <Slide direction="right" delay={1}>
+                    <Technologies>
+                        <p>
+                            Built with <span className="green">React</span>,
+                            Styled Components, & React Icons, deployed with{" "}
+                            <span className="green"></span>.
+                        </p>
+                    </Technologies>
+                </Slide>
+            </Profile>
             <Fade>
                 <ArrowUp onClick={scrollUp}>
                     <AiOutlineArrowUp />
@@ -183,5 +214,14 @@ const ArrowUp = styled.div`
         bottom: 15rem;
         right: 3rem;
         z-index: 999;
+    }
+`;
+
+const Technologies = styled.div`
+    margin-top: 1rem;
+    text-align: center;
+
+    p {
+        font-size: 1rem;
     }
 `;

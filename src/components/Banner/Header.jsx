@@ -15,7 +15,6 @@ const Header = () => {
                 <span className="green">
                     <GiTriangleTarget />
                 </span>
-                {/* <h1>Anshul Sharma</h1> */}
             </Logo>
             <Nav bar={bar}>
                 <span>
@@ -169,6 +168,7 @@ const Nav = styled.div`
             }
             :hover {
                 opacity: 0.7;
+                color: #64ffda;
             }
         }
     }

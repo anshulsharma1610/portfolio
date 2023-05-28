@@ -48,9 +48,10 @@ const Card = styled.div`
         rgb(45, 45, 58) 0%,
         rgb(43, 43, 53) 100%
     );
+    filter: drop-shadow(0px 0.4px 4px #64ffda);
     border-radius: 0.5rem;
     padding: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 
     h2 {
         display: flex;

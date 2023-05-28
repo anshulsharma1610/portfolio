@@ -39,8 +39,9 @@ const Container = styled.div`
         rgb(45, 45, 58) 0%,
         rgb(43, 43, 53) 100%
     );
+    filter: drop-shadow(0px 0.4px 4px #64ffda);
     padding: 1.5rem 1rem;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
 `;
 
 const Header = styled.div`

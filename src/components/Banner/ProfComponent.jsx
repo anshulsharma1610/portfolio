@@ -1,12 +1,10 @@
 import React from "react";
-import { Redirect } from "react-router";
 import styled from "styled-components";
 import {
     AiOutlineInstagram,
     AiFillLinkedin,
     AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 
 const ProfComponent = () => {
@@ -69,13 +67,12 @@ const ProfComponent = () => {
                     <Social>
                         <div className="social-icons">
                             <span
-                                onClick={() => {
+                                onClick={() =>
                                     window.open(
                                         "https://www.linkedin.com/in/anshul1610",
                                         "_blank"
-                                    );
-                                    return false;
-                                }}
+                                    )
+                                }
                             >
                                 <a>
                                     <AiFillLinkedin />
@@ -159,15 +156,16 @@ const Texts = styled.div`
 
     button {
         padding: 0.7rem 2rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
         cursor: pointer;
         background-color: #01be96;
         border: none;
         color: #fff;
         font-weight: 500;
-        filter: drop-shadow(0px 10px 10px #01be9551);
+        filter: drop-shadow(0px 0px 3px #64ffda);
         :hover {
-            filter: drop-shadow(0px 10px 10px #01be9570);
+            filter: drop-shadow(0px 1px 6px #64ffda) !important;
+            transform: rotate(359deg) !important;
         }
     }
 `;
@@ -201,7 +199,9 @@ const Social = styled.div`
             background-color: #01be96;
             position: relative;
             transition: transform 400ms ease-in-out;
+            filter: drop-shadow(0px 0px 10px #64ffda);
             :hover {
+                filter: drop-shadow(0px 10px 10px #64ffda) !important;
                 transform: rotate(360deg);
             }
         }
@@ -215,13 +215,17 @@ const Social = styled.div`
         }
     }
 `;
+
 const Profile = styled.div`
     img {
         width: 25rem;
-        height: 35rem;
-        border-radius: 10rem;
-        filter: drop-shadow(0px 10px 10px #01be9570);
-        transition: transform 400ms ease-in-out;
+        height: 30rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 11rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Customize the box shadow properties */
+        filter: drop-shadow(0px 4px 10px #64ffda);
+        transition: transform 300ms ease-in-out;
         @media (max-width: 790px) {
             width: 20rem;
         }
@@ -236,6 +240,7 @@ const Profile = styled.div`
     }
 
     :hover img {
+        filter: drop-shadow(0px 5px 20px #64ffda);
         transform: translateY(-10px);
     }
 `;

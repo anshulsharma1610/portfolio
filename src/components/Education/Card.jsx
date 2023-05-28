@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineStar } from "react-icons/ai";
 
 const EducationCard = props => {
     const { name, img, degree, course, coursework, gpa, graduation } =
@@ -46,7 +45,8 @@ const Container = styled.div`
         rgb(43, 43, 53) 100%
     );
     padding: 1.5rem 1rem;
-    margin: 0 1rem;
+    filter: drop-shadow(0px 0.4px 4px #64ffda);
+    margin: 1rem 1rem;
 `;
 
 const Header = styled.div`

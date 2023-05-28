@@ -32,7 +32,7 @@ const Skills = () => {
                         ]}
                     />
                 </Slide>
-                <Slide direction="up">
+                <Slide direction="left">
                     <Card
                         Icon={MdOutlineKeyboard}
                         title={"Languages"}
@@ -46,7 +46,7 @@ const Skills = () => {
                         ]}
                     />
                 </Slide>
-                <Slide direction="up">
+                <Slide direction="right">
                     <Card
                         Icon={FiDatabase}
                         title={"Databases"}
