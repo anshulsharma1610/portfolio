@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
-import Slider from "react-slick";
 import styled from "styled-components";
 import Card from "./Card";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Slide } from "react-awesome-reveal";
 
 let companies = [
@@ -50,10 +48,10 @@ const Experience = () => {
 
     return (
         <Container id="experience">
-            <Slide direction="left">
+            <Slide triggerOnce direction="left">
                 <h1 className="green">Experience</h1>
             </Slide>
-            <Slide direction="right">
+            <Slide triggerOnce direction="right">
                 <Testimonials>{company}</Testimonials>
             </Slide>
         </Container>

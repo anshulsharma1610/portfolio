@@ -62,12 +62,12 @@ let projects = [
 const Projects = () => {
     return (
         <Container id="projects">
-            <Zoom>
+            <Zoom triggerOnce>
                 <h1>
                     Recent <span className="green">Projects</span>
                 </h1>
             </Zoom>
-            <Zoom>
+            <Zoom triggerOnce>
                 {projects.map((project, index) => (
                     <Card key={index} {...project} />
                 ))}

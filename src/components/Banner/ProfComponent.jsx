@@ -18,7 +18,7 @@ const ProfComponent = () => {
 
     return (
         <Container id="home">
-            <Slide direction="left">
+            <Slide triggerOnce direction="left">
                 <Texts>
                     {/* <h4>
                         Hello <span className="green">I'am</span>
@@ -106,7 +106,7 @@ const ProfComponent = () => {
                     </Social>
                 </Texts>
             </Slide>
-            <Slide direction="right">
+            <Slide triggerOnce direction="right">
                 <Profile>
                     <img src="images/anshul.jpg" alt="profile" />
                 </Profile>

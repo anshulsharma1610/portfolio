@@ -20,18 +20,18 @@ const Footer = () => {
     return (
         <Container id="contact">
             <Profile>
-                <Slide direction="left" delay={1}>
+                <Slide triggerOnce direction="left" delay={1}>
                     <h1 className="green">Contact</h1>
                 </Slide>
 
                 <div className="links">
                     <div>
-                        <Slide direction="left">
+                        <Slide triggerOnce direction="left">
                             <span>
                                 <HiOutlineMailOpen />
                             </span>
                         </Slide>
-                        <Slide>
+                        <Slide triggerOnce>
                             <a href="mailto:anshulsharma1610@gmail.com">
                                 anshulsharma1610@gmail.com
                             </a>
@@ -39,11 +39,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="profiles">
-                    <Slide direction="left">
+                    <Slide triggerOnce direction="left">
                         <h1>Social profiles</h1>
                     </Slide>
                     <div className="icons">
-                        <Zoom>
+                        <Zoom triggerOnce>
                             <span
                                 onClick={() =>
                                     window.open(
@@ -57,7 +57,7 @@ const Footer = () => {
                                 </a>
                             </span>
                         </Zoom>
-                        <Zoom>
+                        <Zoom triggerOnce>
                             <span
                                 onClick={() =>
                                     window.open(
@@ -71,7 +71,7 @@ const Footer = () => {
                                 </a>
                             </span>
                         </Zoom>
-                        <Zoom>
+                        <Zoom triggerOnce>
                             <span
                                 onClick={() =>
                                     window.open(
@@ -88,7 +88,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <Slide direction="right" delay={1}>
+                <Slide triggerOnce direction="right" delay={1}>
                     <Technologies>
                         <p>
                             Built with <span className="green">React</span>,
@@ -98,7 +98,7 @@ const Footer = () => {
                     </Technologies>
                 </Slide>
             </Profile>
-            <Fade>
+            <Fade triggerOnce>
                 <ArrowUp onClick={scrollUp}>
                     <AiOutlineArrowUp />
                 </ArrowUp>
@@ -201,6 +201,7 @@ const Profile = styled.div`
 const ArrowUp = styled.div`
     width: 2rem;
     height: 2rem;
+    position: relative;
     background-color: #64ffda;
     display: flex;
     align-items: center;

@@ -9,13 +9,13 @@ import { Slide } from "react-awesome-reveal";
 const Skills = () => {
     return (
         <Container id="skills">
-            <Slide direction="down">
+            <Slide triggerOnce direction="down">
                 <h1>
                     <span className="green">Skills</span>
                 </h1>
             </Slide>
             <Cards>
-                <Slide direction="left">
+                <Slide triggerOnce direction="left">
                     <Card
                         Icon={MdWeb}
                         title={"Web Technologies"}
@@ -32,7 +32,7 @@ const Skills = () => {
                         ]}
                     />
                 </Slide>
-                <Slide direction="left">
+                <Slide triggerOnce direction="left">
                     <Card
                         Icon={MdOutlineKeyboard}
                         title={"Languages"}
@@ -46,7 +46,7 @@ const Skills = () => {
                         ]}
                     />
                 </Slide>
-                <Slide direction="right">
+                <Slide triggerOnce direction="right">
                     <Card
                         Icon={FiDatabase}
                         title={"Databases"}
@@ -61,7 +61,7 @@ const Skills = () => {
                         ]}
                     />
                 </Slide>
-                <Slide direction="right">
+                <Slide triggerOnce direction="right">
                     <Card
                         Icon={CgCloud}
                         title={"Tools"}
