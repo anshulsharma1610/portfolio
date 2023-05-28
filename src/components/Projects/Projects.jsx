@@ -44,13 +44,19 @@ let projects = [
         name: "Soldier Health & Position Tracking System (IoT)",
         img: "",
         desc: [
-            "Utilized Stripe webhooks to automate subscription management and monitor payment status, and developed a dashboard to provide insights into key metrics such as revenue and user engagement",
-            "Integrated GPT-4 APIs to summarize news articles and provide a concise and relevant overview of the content",
+            "Programmed a data retrieval and storage system using C language, incorporating Neo6M GPS and SR001 Pulse Rate sensors located on soldiers' arms to transmit crucial data to army control room",
+            "Formed a cloud server on Blynk and visualized insightful real-time data on soldiers' health parameters",
         ],
         link: "/",
         from: "July 2019",
         to: "March 2020",
-        technologies: ["C", "Arduino", "PostgreSQL", "Blynk Cloud"],
+        technologies: [
+            "C",
+            "Arduino",
+            "Raspberry Pi 3",
+            "PostgreSQL",
+            "Blynk Cloud",
+        ],
     },
 ];
 const Projects = () => {

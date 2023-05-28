@@ -19,7 +19,7 @@ let companies = [
         link: "https://www.gupshup.io",
     },
     {
-        name: "Areli Commerce",
+        name: "Areli Commerce (Frendy)",
         position: "Full Stack Developer",
         from: "September 2020",
         to: "February 2022",
