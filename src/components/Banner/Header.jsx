@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { GiCandleFlame } from "react-icons/gi";
+import { GiTriangleTarget } from "react-icons/gi";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
@@ -12,7 +12,9 @@ const Header = () => {
     return (
         <Container bar={bar}>
             <Logo>
-                <span className="green">{/* <GiCandleFlame /> */}</span>
+                <span className="green">
+                    <GiTriangleTarget />
+                </span>
                 {/* <h1>Anshul Sharma</h1> */}
             </Logo>
             <Nav bar={bar}>
