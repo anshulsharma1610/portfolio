@@ -198,6 +198,7 @@ const Profile = styled.div`
         }
     }
 `;
+
 const ArrowUp = styled.div`
     width: 2rem;
     height: 2rem;
@@ -209,11 +210,12 @@ const ArrowUp = styled.div`
     cursor: pointer;
     font-size: 1.3rem;
     font-weight: 700;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     @media (max-width: 650px) {
-        position: fixed;
-        bottom: 15rem;
-        right: 3rem;
+        display: flex;
+        position: absolute;
+        bottom: 18.4rem;
+        right: 2rem;
         z-index: 999;
     }
 `;
