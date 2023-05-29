@@ -52,9 +52,9 @@ let projects = [
         to: "March 2020",
         technologies: [
             "C",
-            "Arduino",
-            "Raspberry Pi 3",
             "PostgreSQL",
+            "Raspberry Pi",
+            "Arduino Uno",
             "Blynk Cloud",
         ],
     },
