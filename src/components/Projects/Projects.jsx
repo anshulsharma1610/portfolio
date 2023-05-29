@@ -102,5 +102,3 @@ const Container = styled.div`
         }
     }
 `;
-
-const Slide = styled.div``;

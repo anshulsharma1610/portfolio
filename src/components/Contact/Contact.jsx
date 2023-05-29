@@ -52,9 +52,9 @@ const Footer = () => {
                                     )
                                 }
                             >
-                                <a>
+                                <p>
                                     <AiFillLinkedin />
-                                </a>
+                                </p>
                             </span>
                         </Zoom>
                         <Zoom triggerOnce>
@@ -66,9 +66,9 @@ const Footer = () => {
                                     )
                                 }
                             >
-                                <a>
+                                <p>
                                     <AiFillGithub />
-                                </a>
+                                </p>
                             </span>
                         </Zoom>
                         <Zoom triggerOnce>
@@ -80,9 +80,9 @@ const Footer = () => {
                                     )
                                 }
                             >
-                                <a>
+                                <p>
                                     <AiOutlineInstagram />
-                                </a>
+                                </p>
                             </span>
                         </Zoom>
                     </div>
@@ -190,7 +190,7 @@ const Profile = styled.div`
                     background-color: #64ffda;
                 }
 
-                a {
+                p {
                     margin-top: 0.2rem;
                     color: #fff;
                 }

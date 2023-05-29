@@ -74,9 +74,9 @@ const ProfComponent = () => {
                                     )
                                 }
                             >
-                                <a>
+                                <p>
                                     <AiFillLinkedin />
-                                </a>
+                                </p>
                             </span>
                             <span
                                 onClick={() =>
@@ -86,9 +86,9 @@ const ProfComponent = () => {
                                     )
                                 }
                             >
-                                <a>
+                                <p>
                                     <AiFillGithub />
-                                </a>
+                                </p>
                             </span>
                             <span
                                 onClick={() =>
@@ -98,9 +98,9 @@ const ProfComponent = () => {
                                     )
                                 }
                             >
-                                <a>
+                                <p>
                                     <AiOutlineInstagram />
-                                </a>
+                                </p>
                             </span>
                         </div>
                     </Social>
@@ -108,7 +108,7 @@ const ProfComponent = () => {
             </Slide>
             <Slide triggerOnce direction="right">
                 <Profile>
-                    <img src="images/anshul.jpg" alt="profile" />
+                    <img src="images/anshul2.jpeg" alt="profile" />
                 </Profile>
             </Slide>
         </Container>
@@ -206,7 +206,7 @@ const Social = styled.div`
             }
         }
 
-        a {
+        p {
             color: #fff;
             position: absolute;
             top: 55%;
