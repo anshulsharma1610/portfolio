@@ -11,8 +11,10 @@ let companies = [
         to: "August 2022",
         desc: [
             "Built POC AI chatbots on Node.js & Javascript scripting generating over 2M+ rupees in sales",
-            "Constructed and delivered POC Omnichannel Conversational AI chatbots for more than 25+ clients",
-            "Created lead management Omnichannel chatbot using Scrum principles for sales managers to organize leads on Salesforce, Zendesk, Hubspot, Zoho, and Freshdesk by saving up to 50% of time",
+            "Created and maintained a robust REST APIs framework, reducing integration project development time by 25%",
+            "Constructed Python and JavaScript-based AI chatbot for lead management, saving sales managers 50% of their time across multiple platforms (Salesforce, Hubspot)",
+            "Effectively resolved and documented 200+ bugs through extensive debugging & testing, leading to 30% decrease in client-reported issues",
+            "Collaborated with cross-functional teams of designers, product managers, and QA engineers, resulting in 20% reduction in development time and a 15% increase in feature adoption rate"
         ],
         link: "https://www.gupshup.io",
     },
@@ -23,9 +25,10 @@ let companies = [
         to: "February 2022",
         desc: [
             "Planned software lifecycle and initiated CMS, CRM, WMS's front-end, and backend utilized to process 10k+ orders per day in a RESTful Microservices environment, reducing order processing time of warehouse by 40%",
-            "Developed algorithm for an Offers System leveraged in e-commerce using agile software development methodologies to run 40 different campaigns having a positive 30% influence on company sales",
+            " Implemented coupon code algorithm with RESTful microservices (Node.js & SQL) for diverse promotional campaigns, leading to 30% revenue growth",
             "Implemented Google Analytics on e-commerce apps to picture user journeys, assisting management in maintaining a 20% customer retention rate",
-            "Created a dashboard using ReactJS, and NodeJS incorporating web-scraped data to compare product pricing from competing businesses, improving efficiency of catalog managers by about 60%",
+            "Utilized Python, React, and MongoDB to create dashboards for web applications, automating data scraping and competitive price comparison, enhancing catalog management efficiency by 50%",
+            "Deployed Multi-language search using ElasticSearch on customer app to provide users with a rich experience, slashing down the time to find products by 50%"
         ],
         link: "https://www.frendy.in",
     },
