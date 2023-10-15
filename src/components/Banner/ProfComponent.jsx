@@ -58,12 +58,12 @@ const ProfComponent = () => {
                         <span className="green">My fervent interest</span> lies
                         in solving real-world problems.
                     </p>
-                    <button
+                    {/* <button
                         onClick={openResume}
                         style={{ marginTop: "1.5rem", borderRadius: "2rem" }}
                     >
                         Resume
-                    </button>
+                    </button> */}
                     <Social>
                         <div className="social-icons">
                             <span
