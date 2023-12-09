@@ -24,6 +24,7 @@ const Skills = () => {
                             "CSS3",
                             "React",
                             "Next.js",
+                            "Angular",
                             "Node.js",
                             "Express.js",
                             "Vue.js",
@@ -37,12 +38,14 @@ const Skills = () => {
                         Icon={MdOutlineKeyboard}
                         title={"Languages"}
                         disc={[
+                            "Python",
                             "JavaScript",
                             "TypeScript",
                             "Java",
-                            "Python",
                             "C",
+                            "C#",
                             "SQL",
+                            "NoSQL"
                         ]}
                     />
                 </Slide>
@@ -75,6 +78,7 @@ const Skills = () => {
                             "Linux",
                             "Heroku",
                             "AWS",
+                            "GCP"
                         ]}
                     />
                 </Slide>

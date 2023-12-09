@@ -11,10 +11,11 @@ let companies = [
         to: "August 2022",
         desc: [
             "Built POC AI chatbots on Node.js & Javascript scripting generating over 2M+ rupees in sales",
-            "Created and maintained a robust REST APIs framework, reducing integration project development time by 25%",
+            "Created and maintained robust REST API microservices, reducing integration project development time by 25%",
             "Constructed Python and JavaScript-based AI chatbot for lead management, saving sales managers 50% of their time across multiple platforms (Salesforce, Hubspot)",
             "Effectively resolved and documented 200+ bugs through extensive debugging & testing, leading to 30% decrease in client-reported issues",
-            "Collaborated with cross-functional teams of designers, product managers, and QA engineers, resulting in 20% reduction in development time and a 15% increase in feature adoption rate"
+            "Collaborated with cross-functional teams of designers, product managers, and QA engineers, resulting in 20% reduction in development time and a 15% increase in feature adoption rate",
+            "Supervised & mentored 3 junior developers in React & Node.js application Development, resulting in a faster onboarding and 25% surge in mentees' code contributions"
         ],
         link: "https://www.gupshup.io",
     },
@@ -24,8 +25,9 @@ let companies = [
         from: "September 2020",
         to: "February 2022",
         desc: [
-            "Planned software lifecycle and initiated CMS, CRM, WMS's front-end, and backend utilized to process 10k+ orders per day in a RESTful Microservices environment, reducing order processing time of warehouse by 40%",
-            " Implemented coupon code algorithm with RESTful microservices (Node.js & SQL) for diverse promotional campaigns, leading to 30% revenue growth",
+            "Developed and deployed scalable React.js e-commerce applications including CMS, CRM, and WMS's frontend & backend for 25000+ daily users using Agile Scrum methodologies in a RESTful microservices environment",
+            "Migrated legacy Java APIs to scalable 6 NodeJS services, enhancing system stability and increasing performance of warehouse order processing by 150%",
+            "Implemented various key e-commerce features & coupon code algorithm for diverse promotional campaigns, leading to 30% revenue growth & increasing 20% customer retention",
             "Implemented Google Analytics on e-commerce apps to picture user journeys, assisting management in maintaining a 20% customer retention rate",
             "Utilized Python, React, and MongoDB to create dashboards for web applications, automating data scraping and competitive price comparison, enhancing catalog management efficiency by 50%",
             "Deployed Multi-language search using ElasticSearch on customer app to provide users with a rich experience, slashing down the time to find products by 50%"
@@ -38,7 +40,7 @@ let companies = [
         from: "April 2018",
         to: "September 2018",
         desc: [
-            "Architected 15+ responsive websites in HTML5 for IEEE Conferences and deployed projects on Godaddy.com",
+            " Architected 15+ responsive web application projects using HTML, JavaScript, PHP, CSS and SQL and deployed ensuring seamless user experience across various devices and browsers",
             "Supervised 6 interns' day-to-day tasks and implemented a smooth workflow to optimize project delivery time, enabling 20%  faster execution of projects",
         ],
         link: "https://www.nyxwolves.com",
