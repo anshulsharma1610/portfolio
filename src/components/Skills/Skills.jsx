@@ -69,16 +69,16 @@ const Skills = () => {
                         Icon={CgCloud}
                         title={"Tools"}
                         disc={[
+                            "AWS",
+                            "GCP",
+                            "CI/CD",
+                            "GitHub Actions",
+                            "Shell Script",
+                            "Terraform",
+                            "Linux",
                             "Git",
                             "NPM",
-                            "GitHub",
-                            "VS Code",
-                            "Eclipse",
-                            "Jira",
-                            "Linux",
-                            "Heroku",
-                            "AWS",
-                            "GCP"
+                            "Jira"
                         ]}
                     />
                 </Slide>
