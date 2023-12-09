@@ -9,12 +9,12 @@ let projects = [
         // img: "images/trendr.png",
         desc: [
             "Automated CI for efficient AMI creation, optimizing resources for seamless deployment & established a robust architecture with custom domain setup using Route 53 for high availability and optimal app performance",
-            "Performed AWS deployment with Pulumi, GitHub Actions & Packer for a scalable Node.js Application & orchestrated VPC, EC2, RDS, GCS, load balancer, & auto-scaling, coupled with comprehensive logging & CloudWatch metrics"    
+            "●	Performed AWS deployment with Pulumi, GitHub Actions & Packer for a scalable Node.js Application & orchestrated VPC, EC2, RDS, GCS, L7 load balancer, lambda functions & auto-scaling, coupled with CloudWatch logging & metrics"    
         ],
         link: "https://github.com/anshulsharma1610/",
-        from: "September 2023",
-        to: "December 2023",
-        technologies: ["AWS", "GCP", "GitHub Actions", "Shell Script", "Linux", "Terraform", "Packer", "JavaScript", "Node.js"],
+        from: "Sep 2023",
+        to: "Dec 2023",
+        technologies: ["AWS", "GCP", "GitHub Actions", "Shell Script", "Linux", "Terraform", "Serverless", "Packer", "JavaScript", "Node.js"],
     },
     {
         name: "Trendr - News Summarization Application",
