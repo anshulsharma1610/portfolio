@@ -9,7 +9,7 @@ let projects = [
         // img: "images/trendr.png",
         desc: [
             "Automated CI for efficient AMI creation, optimizing resources for seamless deployment & established a robust architecture with custom domain setup using Route 53 for high availability and optimal app performance",
-            "●	Performed AWS deployment with Pulumi, GitHub Actions & Packer for a scalable Node.js Application & orchestrated VPC, EC2, RDS, GCS, L7 load balancer, lambda functions & auto-scaling, coupled with CloudWatch logging & metrics"    
+            "Performed AWS deployment with Pulumi, GitHub Actions & Packer for a scalable Node.js Application & orchestrated VPC, EC2, RDS, GCS, L7 load balancer, lambda functions & auto-scaling, coupled with CloudWatch logging & metrics"    
         ],
         link: "https://github.com/anshulsharma1610/",
         from: "Sep 2023",
