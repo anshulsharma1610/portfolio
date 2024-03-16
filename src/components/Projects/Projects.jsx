@@ -12,8 +12,8 @@ let projects = [
             "Performed AWS deployment with Pulumi, GitHub Actions & Packer for a scalable Node.js Application & orchestrated VPC, EC2, RDS, GCS, L7 load balancer, lambda functions & auto-scaling, coupled with CloudWatch logging & metrics"    
         ],
         link: "https://github.com/anshulsharma1610/",
-        from: "Sep 2023",
-        to: "Dec 2023",
+        from: "September 2023",
+        to: "December 2023",
         technologies: ["AWS", "GCP", "GitHub Actions", "Shell Script", "Linux", "Terraform", "Serverless", "Packer", "JavaScript", "Node.js"],
     },
     {

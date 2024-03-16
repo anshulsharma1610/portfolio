@@ -5,23 +5,54 @@ import { Slide } from "react-awesome-reveal";
 
 let companies = [
     {
-        name: "Gupshup Technologies",
-        position: "Software Engineer",
+        name: "Northeastern WiNES Lab",
+        position: "Research Assistant",
+        location: "Boston, USA",
+        from: "February 2024",
+        to: "Present",
+        desc: [
+            "Spearheaded development of 3 interactive React websites, elevating presentation of research data findings",
+            "Established CI/CD pipeline for 2 React projects, ensuring latest update deployment with AWS, Terraform for scalability",
+            "Leveraged Python & Flask to integrate backend, yielding 20% enhancement in web app performance & responsiveness"
+        ],
+        // link: "https://www.gupshup.io",
+    },
+    {
+        name: "Students Landing",
+        position: "Software Developer Intern",
+        location: "Boston, USA",
         from: "March 2022",
         to: "August 2022",
         desc: [
-            "Built POC AI chatbots on Node.js & Javascript scripting generating over 2M+ rupees in sales",
-            "Created and maintained robust REST API microservices, reducing integration project development time by 25%",
-            "Constructed Python and JavaScript-based AI chatbot for lead management, saving sales managers 50% of their time across multiple platforms (Salesforce, Hubspot)",
-            "Effectively resolved and documented 200+ bugs through extensive debugging & testing, leading to 30% decrease in client-reported issues",
-            "Collaborated with cross-functional teams of designers, product managers, and QA engineers, resulting in 20% reduction in development time and a 15% increase in feature adoption rate",
-            "Supervised & mentored 3 junior developers in React & Node.js application Development, resulting in a faster onboarding and 25% surge in mentees' code contributions"
+            "Elevated user engagement by 30% implementing strategic features in Angular, Flutter optimizing performance",
+            "Achieved 20% reduction in latency, orchestrating docker image deployments of Spring Boot Java backend on AWS EC2",
+            "Boosted development efficiency by 25% with Dart & Flutter integration for cross-platform mobile app development"
+        ],
+        link: "https://studentslanding.com/",
+    },
+    {
+        name: "Gupshup Technologies",
+        position: "Software Engineer",
+        location: "Mumbai, India",
+        from: "March 2022",
+        to: "August 2022",
+        desc: [
+            // "Built POC AI chatbots on Node.js & Javascript scripting generating over 2M+ rupees in sales",
+            // "Created and maintained robust REST API microservices, reducing integration project development time by 25%",
+            // "Constructed Python and JavaScript-based AI chatbot for lead management, saving sales managers 50% of their time across multiple platforms (Salesforce, Hubspot)",
+            // "Effectively resolved and documented 200+ bugs through extensive debugging & testing, leading to 30% decrease in client-reported issues",
+            // "Collaborated with cross-functional teams of designers, product managers, and QA engineers, resulting in 20% reduction in development time and a 15% increase in feature adoption rate",
+            // "Supervised & mentored 3 junior developers in React & Node.js application Development, resulting in a faster onboarding and 25% surge in mentees' code contributions"
+            "Constructed conversational AI chatbots using JavaScript, Python generating over 2M+ rupees revenue",
+            "Resolved 200+ bugs with TDD, troubleshooting, debugging & testing, leading to decrease in client-reported issues",
+            "Collaborated with cross-functional teams of designers, product managers, & quality assurance engineers, resulting in 50% increase in React Native app feature deployment"
         ],
         link: "https://www.gupshup.io",
     },
     {
         name: "Areli Commerce (Frendy)",
         position: "Full Stack Developer",
+        location: "Ahmedabad, India",
         from: "September 2020",
         to: "February 2022",
         desc: [
@@ -29,21 +60,23 @@ let companies = [
             "Migrated legacy Java APIs to scalable 6 NodeJS services, enhancing system stability and increasing performance of warehouse order processing by 150%",
             "Implemented various key e-commerce features & coupon code algorithm for diverse promotional campaigns, leading to 30% revenue growth & increasing 20% customer retention",
             "Implemented Google Analytics on e-commerce apps to picture user journeys, assisting management in maintaining a 20% customer retention rate",
-            "Utilized Python, React, and MongoDB to create dashboards for web applications, automating data scraping and competitive price comparison, enhancing catalog management efficiency by 50%",
-            "Deployed Multi-language search using ElasticSearch on customer app to provide users with a rich experience, slashing down the time to find products by 50%"
+            "Utilized Python, Vue.js, and MongoDB to create dashboards for web applications, automating data scraping and competitive price comparison, enhancing catalog management efficiency by 50%",
+            "Deployed Multi-language search using ElasticSearch on customer app to provide users with a rich experience, slashing down the time to find products by 50%",
+            "Led team of 4 developers in full-stack application development, resulting in 25% surge in team code contributions"
         ],
         link: "https://www.frendy.in",
     },
     {
         name: "NyxWolves Freelance and Business Solutions",
         position: "Web Developer Intern & Intern Manager",
+        location: "Mumbai, India",
         from: "April 2018",
         to: "September 2018",
         desc: [
             " Architected 15+ responsive web application projects using HTML, JavaScript, PHP, CSS and SQL and deployed ensuring seamless user experience across various devices and browsers",
             "Supervised 6 interns' day-to-day tasks and implemented a smooth workflow to optimize project delivery time, enabling 20%  faster execution of projects",
         ],
-        link: "https://www.nyxwolves.com",
+        link: "https://nyxwolves.com/",
     },
 ];
 

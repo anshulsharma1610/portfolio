@@ -17,7 +17,7 @@ let schools = [
             "CryptoCurrency & Smart Contracts",
         ],
         gpa: "3.84/4",
-        graduation: "Ongoing",
+        graduation: "May 2024",
     },
     {
         name: "Mumbai University",

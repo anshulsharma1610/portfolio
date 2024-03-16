@@ -42,7 +42,7 @@ const Skills = () => {
                             "JavaScript",
                             "TypeScript",
                             "Java",
-                            "C",
+                            "C++",
                             "C#",
                             "SQL",
                             "NoSQL"
@@ -61,13 +61,14 @@ const Skills = () => {
                             "Sequelize",
                             "Mongoose",
                             "SQL Server",
+                            "Redis"
                         ]}
                     />
                 </Slide>
                 <Slide triggerOnce direction="right">
                     <Card
                         Icon={CgCloud}
-                        title={"Tools"}
+                        title={"Cloud"}
                         disc={[
                             "AWS",
                             "GCP",
@@ -76,9 +77,8 @@ const Skills = () => {
                             "Shell Script",
                             "Terraform",
                             "Linux",
-                            "Git",
-                            "NPM",
-                            "Jira"
+                            "Docker",
+                            "Kubernetes"
                         ]}
                     />
                 </Slide>

@@ -25,7 +25,7 @@ export default Card;
 const Container = styled.div`
     width: 100%;
     filter: drop-shadow(0px 0.4px 4px #64ffda);
-    height: 420px !important;
+    height: 460px !important;
     background: linear-gradient(
         159deg,
         rgb(45, 45, 58) 0%,
