@@ -15,8 +15,11 @@ let schools = [
             "Application Engineering & Development",
             "Data Management & Database Design",
             "CryptoCurrency & Smart Contracts",
+            "Cloud Comuting",
+            "Design Patterns",
+            "Agile Methodologies"
         ],
-        gpa: "3.84/4",
+        gpa: "3.86/4",
         graduation: "May 2024",
     },
     {
@@ -26,7 +29,8 @@ let schools = [
         course: "Electronics & Telecommunications",
         coursework: [
             "Object Oriented Programming",
-            " Database Management System",
+            "Database Management System",
+            "Structured Progamming Approach"
         ],
         gpa: "3.4/4",
         graduation: "October 2020",

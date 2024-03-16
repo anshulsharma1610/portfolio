@@ -79,11 +79,19 @@ const Card = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
         margin-bottom: 1rem;
 
         span {
             font-size: 0.9rem;
             color: #ccc;
+        }
+
+        /* Adjusting for mobile view */
+        @media (max-width: 768px) {
+            flex-direction: column; /* Ensure date is above technologies */
+            align-items: flex-start;
+            gap: 1em; /* Add space between the date and technologies */
         }
     }
 `;

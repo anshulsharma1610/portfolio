@@ -14,7 +14,7 @@ let projects = [
         link: "https://github.com/anshulsharma1610/",
         from: "September 2023",
         to: "December 2023",
-        technologies: ["AWS", "GCP", "GitHub Actions", "Shell Script", "Linux", "Terraform", "Serverless", "Packer", "JavaScript", "Node.js"],
+        technologies: ["AWS", "GCP", "GitHub Actions", "Shell Script", "Lambda", "Packer", "Terraform"],
     },
     {
         name: "Trendr - News Summarization Application",
