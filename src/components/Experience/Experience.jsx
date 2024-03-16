@@ -21,8 +21,8 @@ let companies = [
         name: "Students Landing",
         position: "Software Developer Intern",
         location: "Boston, USA",
-        from: "March 2022",
-        to: "August 2022",
+        from: "May 2023",
+        to: "August 2023",
         desc: [
             "Elevated user engagement by 30% implementing strategic features in Angular, Flutter optimizing performance",
             "Achieved 20% reduction in latency, orchestrating docker image deployments of Spring Boot Java backend on AWS EC2",
