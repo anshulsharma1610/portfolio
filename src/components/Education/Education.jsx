@@ -15,7 +15,7 @@ let schools = [
             "Application Engineering & Development",
             "Data Management & Database Design",
             "CryptoCurrency & Smart Contracts",
-            "Cloud Comuting",
+            "Network Structure & Cloud Comuting",
             "Design Patterns",
             "Agile Methodologies"
         ],
