@@ -11,10 +11,22 @@ let projects = [
             "Automated CI for efficient AMI creation, optimizing resources for seamless deployment & established a robust architecture with custom domain setup using Route 53 for high availability and optimal app performance",
             "Performed AWS deployment with Pulumi, GitHub Actions & Packer for a scalable Node.js Application & orchestrated VPC, EC2, RDS, GCS, L7 load balancer, lambda functions & auto-scaling, coupled with CloudWatch logging & metrics"    
         ],
-        link: "https://github.com/anshulsharma1610/",
+        link: "https://github.com/anshulsharma1610/Scalable-Node.js-App-on-AWS-through-IaC",
         from: "September 2023",
         to: "December 2023",
         technologies: ["AWS", "GCP", "GitHub Actions", "Shell Script", "Lambda", "Packer", "Terraform"],
+    },
+    {
+        name: "Dutch Auction using Solidity",
+        // img: "images/trendr.png",
+        desc: [
+            "Tested & deployed NFT smart contracts with Dutch Auction structure on Ethereum testnet, utilizing Hardhat for contract deployment and ensuring proper functionality in handling bids, auction termination, and fund transfers",
+            "Executed decentralized application (DApp) with React UI hosted on IPFS, utilized IPNS for generating fixed name, enhancing overall accessibility and persistence of the application"
+        ],
+        link: "https://github.com/anshulsharma1610/Dutch_Auction",
+        from: "May 2023",
+        to: "June 2023",
+        technologies: ["Solidity", "Typescript", "NFTs", "Web3", "Blockchain", "Cryptocurrency"],
     },
     {
         name: "Trendr - News Summarization Application",
